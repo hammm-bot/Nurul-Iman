@@ -1,0 +1,36 @@
+# === Virtual Environment ===
+venv/
+ENV/
+env/
+
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Django SQLite (kalau pernah terpakai awal) ===
+*.sqlite3
+*.db
+
+# === Django Migration Cache ===
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# === Log Files ===
+*.log
+
+# === Environment Variables ===
+.env
+
+# === IDE/Editor Files ===
+.vscode/
+.idea/
+
+# === OS Junk ===
+.DS_Store
+Thumbs.db
+
+# === Static/Media (jika di-generate runtime) ===
+staticfiles/
+media/
